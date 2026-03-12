@@ -19,26 +19,20 @@ features:
   <span style="font-size: 13px; color: rgba(100, 116, 139, 0.95);">在 ByteTech 中搜索你想要的教程或关键词…</span>
 </div>
 
-<div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
-  <a
-    href="/career/backend/db-dev/"
-    style="text-decoration: none; border-radius: 18px; padding: 22px 20px; background: linear-gradient(135deg, rgba(56, 189, 248, 0.16), rgba(59, 130, 246, 0.06)); border: 1px solid rgba(56, 189, 248, 0.35); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.35); display: flex; flex-direction: column; gap: 10px;">
-    <div style="font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(148, 163, 184, 0.9);">CAREER PATH</div>
-    <div style="font-size: 20px; font-weight: 600; color: #e2e8f0;">职业教程 · 职业发展路线</div>
-    <div style="font-size: 14px; color: rgba(203, 213, 225, 0.9);">从后端开发 · 数据库开发工程师起步，系统规划你的成长路径，未来可扩展更多岗位。</div>
-    <div style="margin-top: 6px; font-size: 13px; color: rgba(125, 211, 252, 0.9); display: inline-flex; align-items: center; gap: 4px;">
-      进入职业路线 <span>→</span>
-    </div>
-  </a>
+## 职业教程开篇
 
-  <a
-    href="/tutorials/"
-    style="text-decoration: none; border-radius: 18px; padding: 22px 20px; background: linear-gradient(135deg, rgba(129, 140, 248, 0.18), rgba(244, 114, 182, 0.06)); border: 1px solid rgba(129, 140, 248, 0.35); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.35); display: flex; flex-direction: column; gap: 10px;">
-    <div style="font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(148, 163, 184, 0.9);">TECH STACK</div>
-    <div style="font-size: 20px; font-weight: 600; color: #e2e8f0;">技术教程 · 计算机基础</div>
-    <div style="font-size: 14px; color: rgba(203, 213, 225, 0.9);">从 C++、操作系统、计算机网络等核心模块出发，逐步搭建你的计算机知识底座。</div>
-    <div style="margin-top: 6px; font-size: 13px; color: rgba(196, 181, 253, 0.9); display: inline-flex; align-items: center; gap: 4px;">
-      浏览技术教程 <span>→</span>
-    </div>
-  </a>
-</div>
+面向后端、前端、算法、AI 等岗位，提供按阶段拆分的系统学习路线。从基础概念到工程实践，你可以沿着路线逐步完成能力升级。
+
+- 当前已开放：后端开发工程师 · 数据库开发工程师路线
+- 后续可以扩展：更多后端细分岗位、前端工程师、算法工程师、AI 工程师等
+
+[进入职业教程二级页面](career/backend/db-dev/)
+
+## 技术教程开篇
+
+从计算机基础出发，构建你的核心知识底座。每个模块都会包含学习路径和配套课程。
+
+- 当前已开放：C++、操作系统、计算机网络
+- 后续可以扩展：Java、Python、Go、操作系统进阶、网络安全等
+
+[进入技术教程二级页面](tutorials/)
