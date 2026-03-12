@@ -44,10 +44,10 @@ C++ 是一门兼具 **高性能** 与 **高抽象能力** 的编程语言，在�
 
 <div style="border: 1px solid var(--vp-c-divider); border-radius: 8px; overflow: hidden; margin-top: 16px;">
   <iframe
-    src="https://c.runoob.com/compile/11/"
+    src="https://onecompiler.com/cpp"
     style="width: 100%; min-height: 520px; border: none;"
     loading="lazy"
-    title="在线 C++ 调试示例（中国区）"
+    title="在线 C++ 调试示例"
   ></iframe>
 </div>
 
