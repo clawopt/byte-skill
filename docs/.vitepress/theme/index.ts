@@ -48,6 +48,14 @@ const theme: Theme = {
           })
 
           anyEl._pagefindInited = true
+
+          const trigger = el.querySelector<HTMLElement>('[data-bytetech-search-trigger]')
+          if (trigger) {
+            trigger.addEventListener('click', () => {
+              const input = el.querySelector<HTMLInputElement>('input[type="search"], input')
+              input?.focus()
+            })
+          }
         })
       }
 
