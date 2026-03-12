@@ -15,8 +15,8 @@ features:
 <div
   data-bytetech-search
   class="bt-search-home"
-  style="max-width: 640px; margin: 40px auto 0; padding: 12px 20px; border-radius: 999px; background: radial-gradient(circle at 0 0, rgba(110, 186, 255, 0.25), transparent 55%), radial-gradient(circle at 100% 100%, rgba(147, 92, 255, 0.25), transparent 55%), rgba(15, 23, 42, 0.85); box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45); border: 1px solid rgba(148, 163, 184, 0.35);">
-  <span style="font-size: 13px; color: rgba(226, 232, 240, 0.75);">在 ByteTech 中搜索你想要的教程或关键词…</span>
+  style="max-width: 560px; margin: 24px auto 0; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(148, 163, 184, 0.5); background: rgba(15, 23, 42, 0.03); box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);">
+  <span style="font-size: 13px; color: rgba(100, 116, 139, 0.95);">在 ByteTech 中搜索你想要的教程或关键词…</span>
 </div>
 
 <div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
@@ -32,7 +32,7 @@ features:
   </a>
 
   <a
-    href="/tutorials/cpp/"
+    href="/tutorials/"
     style="text-decoration: none; border-radius: 18px; padding: 22px 20px; background: linear-gradient(135deg, rgba(129, 140, 248, 0.18), rgba(244, 114, 182, 0.06)); border: 1px solid rgba(129, 140, 248, 0.35); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.35); display: flex; flex-direction: column; gap: 10px;">
     <div style="font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(148, 163, 184, 0.9);">TECH STACK</div>
     <div style="font-size: 20px; font-weight: 600; color: #e2e8f0;">技术教程 · 计算机基础</div>
