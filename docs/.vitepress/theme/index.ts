@@ -48,14 +48,20 @@ const theme: Theme = {
           })
 
           anyEl._pagefindInited = true
+        })
 
-          const trigger = el.querySelector<HTMLElement>('[data-bytetech-search-trigger]')
-          if (trigger) {
-            trigger.addEventListener('click', () => {
-              const input = el.querySelector<HTMLInputElement>('input[type="search"], input')
-              input?.focus()
-            })
-          }
+        const triggers = document.querySelectorAll<HTMLElement>('[data-bytetech-search-trigger]')
+        triggers.forEach((trigger) => {
+          if ((trigger as any)._pagefindTriggerBound) return
+
+          trigger.addEventListener('click', () => {
+            const shell = trigger.closest('.bt-search-home-shell') as HTMLElement | null
+            const container = shell?.querySelector<HTMLElement>('[data-bytetech-search]') ?? null
+            const input = container?.querySelector<HTMLInputElement>('input[type="search"], input')
+            input?.focus()
+          })
+
+          ;(trigger as any)._pagefindTriggerBound = true
         })
       }
 
