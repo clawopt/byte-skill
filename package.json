@@ -1,0 +1,30 @@
+{
+  "name": "byte-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "pagefind": "pagefind --source docs/.vitepress/dist",
+    "build": "npm run docs:build && npm run pagefind",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clawopt/byte-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/clawopt/byte-skill/issues"
+  },
+  "homepage": "https://github.com/clawopt/byte-skill#readme",
+  "devDependencies": {
+    "pagefind": "^1.4.0",
+    "vitepress": "^1.6.4"
+  }
+}
