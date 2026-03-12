@@ -4,7 +4,6 @@ title: ByteTech · 迈向AI
 titleTemplate: ByteTech · 迈向AI
 hero:
   name: ByteTech · 迈向AI
-  text: 系统化的职业与技术学习导航
   tagline: 面向 AI 时代的计算机学习入口
 features:
   - title: 职业教程
