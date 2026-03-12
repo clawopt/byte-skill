@@ -15,7 +15,7 @@ features:
 <div
   data-bytetech-search
   class="bt-search-home"
-  style="max-width: 560px; margin: 24px auto 0; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(148, 163, 184, 0.5); background: rgba(15, 23, 42, 0.03); box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);">
+  style="max-width: 560px; margin: 24px auto 0;">
   <span style="font-size: 13px; color: rgba(100, 116, 139, 0.95);">在 ByteTech 中搜索你想要的教程或关键词…</span>
 </div>
 
